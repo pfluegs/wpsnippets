@@ -1,0 +1,27 @@
+.caldera-grid .form-control:focus {
+    box-shadow: none !important;
+}
+
+.form-submit-button {
+    float: right;
+    margin-top: 10px;
+}
+
+#submit_button_id_goes_here {
+    border-radius: 5px;
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+.caldera-grid .form-control {
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: none !important;
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
